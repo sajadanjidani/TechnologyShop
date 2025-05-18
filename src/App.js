@@ -1,6 +1,9 @@
+import Navbar from "./Navbar/Navbar";
+
 function App() {
   return (
-    <div className="container h-20 bg-textDark">
+    <div className="container">
+      <Navbar></Navbar>
     </div>
   );
 }
