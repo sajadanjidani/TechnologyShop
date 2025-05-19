@@ -3,12 +3,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from "./Navbar/Navbar";
 import ImageSlider from "./Slider/Slider";
+import SliderContainer from "./SliderContainer/SliderContainer";
 
 function App() {
   return (
     <div className="container">
       <Navbar></Navbar>
-      <ImageSlider></ImageSlider>
+      <SliderContainer>
+        <ImageSlider></ImageSlider>
+      </SliderContainer>
     </div>
   );
 }

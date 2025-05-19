@@ -12,7 +12,7 @@ const ImageSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -20,13 +20,20 @@ const ImageSlider = () => {
   };
 
   return (
-      <Slider {...settings}>
+    <Slider className="w-full h-full rounded-2xl" {...settings}>
       {images.map((src, index) => (
-          <div key={index}>
-          <img src={src} alt={`slide-${index}`} style={{ width: "100%", height: "100%"}} />
-          </div>
+        <div
+          className="w-full h-full rounded-2xl overflow-hidden relative"
+          key={index}
+        >
+          <img
+            src={src}
+            alt={`slide-${index}`}
+            className="w-full h-[420px] transition-all duration-500"
+          />
+        </div>
       ))}
-      </Slider>
+    </Slider>
   );
 };
 

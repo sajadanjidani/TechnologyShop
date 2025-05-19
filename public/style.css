@@ -557,13 +557,25 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -572,6 +584,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-12 {
@@ -590,8 +606,44 @@ video {
   height: 100%;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .h-96 {
   height: 24rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
+.h-\[440px\] {
+  height: 440px;
+}
+
+.h-\[420px\] {
+  height: 420px;
 }
 
 .w-12 {
@@ -610,6 +662,10 @@ video {
   width: 8rem;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .w-\[96\%\] {
   width: 96%;
 }
@@ -618,8 +674,16 @@ video {
   width: 100%;
 }
 
-.w-5\/6 {
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-10\/12 {
   width: 83.333333%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .cursor-pointer {
@@ -654,8 +718,28 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .bg-bgLight {
@@ -663,14 +747,18 @@ video {
   background-color: rgb(204 204 204 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
 .bg-textDark {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+.object-cover {
+  object-fit: cover;
 }
 
 .px-2 {
@@ -678,22 +766,53 @@ video {
   padding-right: 0.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .hover\:bg-hoverLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(221 58 248 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:fill-hoverDark:hover {
-  fill: #58b1f7;
-}
-
-.hover\:text-hoverDark:hover {
-  --tw-text-opacity: 1;
-  color: rgb(88 177 247 / var(--tw-text-opacity, 1));
-}
-
-.group:hover .group-hover\:fill-hoverDark {
-  fill: #58b1f7;
+.child\:text-5xl > * {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .child-hover\:text-hoverLight > *:hover {
