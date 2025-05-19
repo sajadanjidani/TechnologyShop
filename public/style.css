@@ -578,6 +578,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -644,6 +648,10 @@ video {
 
 .h-\[420px\] {
   height: 420px;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-12 {
@@ -761,9 +769,22 @@ video {
   object-fit: cover;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .text-xl {
