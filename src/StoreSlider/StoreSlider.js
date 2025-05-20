@@ -1,7 +1,7 @@
-const StoreSlider = ({children}) => {
+const StoreSlider = ({children , title}) => {
     return(
-        <div className="w-full h-auto p-5 mt-20 bg-red-500">
-            <h2 className="text-2xl">محصولات</h2>
+        <div className="w-full h-auto p-5 mt-14">
+            <h2 className="text-2xl">{title}</h2>
             <div className="grid grid-flow-col gap-3 w-full h-auto mt-5 overflow-hidden">
                 {children}
             </div>
