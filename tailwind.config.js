@@ -17,7 +17,9 @@ module.exports = {
         darkPrice : "#04ff00",
         lightPrice : "#008f00",
         hoverLight : "#dd3af8",
-        hoverDark : "#58b1f7"
+        hoverDark : "#58b1f7",
+        rateLight : "#fc9c00",
+        rateDark : "#ffe605",
       }
     },
   },
