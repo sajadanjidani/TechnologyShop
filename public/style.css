@@ -889,6 +889,10 @@ video {
   top: 1.75rem;
 }
 
+.child\:fill-red-700 > * {
+  fill: #b91c1c;
+}
+
 .child\:text-left > * {
   text-align: left;
 }
