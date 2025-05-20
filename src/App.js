@@ -9,6 +9,7 @@ import StoreSlider from "./StoreSlider/StoreSlider";
 import ServicesWe from "./ServicesWe/ServicesWe";
 import ServicesItem from "./ServicesItem/ServicesItem";
 import WeblogContainer from "./WeblogContainer/WeblogContainer";
+import WeblogItem from "./WeblogItem/WeblogItem";
 
 function App() {
 
@@ -154,7 +155,12 @@ function App() {
         </ServicesItem>
       </ServicesWe>
       {/* weblog */}
-      <WeblogContainer></WeblogContainer>
+      <WeblogContainer>
+        <WeblogItem></WeblogItem>
+        <WeblogItem></WeblogItem>
+        <WeblogItem></WeblogItem>
+        <WeblogItem></WeblogItem>
+      </WeblogContainer>
     </div>
   );
 }
