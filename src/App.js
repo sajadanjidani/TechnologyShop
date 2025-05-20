@@ -6,6 +6,7 @@ import ImageSlider from "./Slider/Slider";
 import SliderContainer from "./SliderContainer/SliderContainer";
 import StoreItems from "./StoreItems/StoreItems";
 import StoreSlider from "./StoreSlider/StoreSlider";
+import ServicesWe from "./ServicesWe/ServicesWe";
 
 function App() {
 
@@ -128,6 +129,8 @@ function App() {
         <StoreItems {...consoleItems[8]}></StoreItems>
         <StoreItems></StoreItems>
       </StoreSlider>
+      {/* Services container */}
+      <ServicesWe></ServicesWe>
     </div>
   );
 }
