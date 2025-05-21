@@ -96,7 +96,7 @@ function App() {
   ]
 
   return (
-    <div className="container overflow-x-hidden">
+    <div className="container overflow-x-hidden dark:bg-bgDark">
       <Navbar></Navbar>
       <SliderContainer>
         <ImageSlider></ImageSlider>
