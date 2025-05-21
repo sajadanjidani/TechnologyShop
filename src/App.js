@@ -10,6 +10,7 @@ import ServicesWe from "./ServicesWe/ServicesWe";
 import ServicesItem from "./ServicesItem/ServicesItem";
 import WeblogContainer from "./WeblogContainer/WeblogContainer";
 import WeblogItem from "./WeblogItem/WeblogItem";
+import Footer from "./Footer/Footer";
 
 function App() {
 
@@ -168,6 +169,8 @@ function App() {
         <WeblogItem {...WeblogItemInfo[2]}></WeblogItem>
         <WeblogItem {...WeblogItemInfo[3]}></WeblogItem>
       </WeblogContainer>
+      {/* footer */}
+      <Footer></Footer>
     </div>
   );
 }
