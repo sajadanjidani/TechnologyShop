@@ -1,6 +1,6 @@
 const WeblogItem = ({title, content, writer, date, srcImage}) => {
     return(
-        <div className="w-full h-full bg-white rounded-lg overflow-hidden">
+        <div className="w-full h-full bg-white dark:bg-black rounded-lg overflow-hidden">
             {/* imagebox */}
             <div className="w-full h-2/5 bg-red-500">
             <img className="w-full h-full" src={srcImage} alt="weblogImage"/></div>

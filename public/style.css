@@ -1076,6 +1076,11 @@ video {
     color: rgb(255 230 5 / var(--tw-text-opacity, 1));
   }
 
+  .dark\:text-bgLight {
+    --tw-text-opacity: 1;
+    color: rgb(204 204 204 / var(--tw-text-opacity, 1));
+  }
+
   .dark\:hover\:bg-hoverLight:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(221 58 248 / var(--tw-bg-opacity, 1));
@@ -1094,6 +1099,10 @@ video {
   }
 
   .dark\:child\:fill-textDark > * {
+    fill: #fff;
+  }
+
+  .dark\:child\:fill-white > * {
     fill: #fff;
   }
 
