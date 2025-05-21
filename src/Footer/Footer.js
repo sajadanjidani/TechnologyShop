@@ -2,7 +2,7 @@ import CircleBtn from "../CircleBtn/CircleBtn";
 
 const Footer = () => {
     return(
-        <div className="grid w-full h-[380px] px-12 overflow-hidden bg-white">
+        <div className="grid w-full h-[380px] px-12 overflow-hidden bg-white dark:bg-black dark:text-textDark dark:child:fill-textDark">
             {/* logo and number container */}
             <div className="grid grid-cols-4 max-h-28 overflow-hidden border-b-2 child:-mt-3">
                 {/* imagebox */}
