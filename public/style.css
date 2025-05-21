@@ -597,6 +597,24 @@ video {
   margin-top: 1.25rem;
 }
 
+.-ml-10 {
+  margin-left: -2.5rem;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .flex {
   display: flex;
 }
@@ -757,6 +775,14 @@ video {
   width: 100%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
 .min-w-\[250px\] {
   min-width: 250px;
 }
@@ -831,6 +857,20 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .rounded-2xl {
@@ -1032,6 +1072,11 @@ video {
 .hover\:bg-hoverLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(221 58 248 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-hoverLight:hover {
+  --tw-text-opacity: 1;
+  color: rgb(221 58 248 / var(--tw-text-opacity, 1));
 }
 
 .child\:absolute > * {

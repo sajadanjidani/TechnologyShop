@@ -87,8 +87,15 @@ function App() {
     {id: 4, title: 'تضمین کیفیت', content: 'ما به شما تضمین بهترین کیفیت در سراسر کشور را میدهیم .', iconColor: '#e65c00 ', iconBgColor: '#ffcd8c'},
   ]
 
+  const WeblogItemInfo = [
+    {id: 1, title: 'جشن سی سالگی پلیسیشن', content: 'پلیسیشن شرکت سازنده مجموعه کنسول های بازی از PS1 تا PS5 به مناسبت سی سالگی', writer: 'سجاد انجیدنی', date: '1403/02/29', srcImage: '/image/weblog/weblog-item-1.jpg'},
+    {id: 2, title: 'قرارداد تیم اروپایی با اپل', content: 'طبق بیانیه رسمی real madrid با شرکت اپل قرار دادی مبتنی بر تجربه تماشاگر حاضر در استادیو به کمک VR را ایجاد کرده اند ', writer: 'سجاد انجیدنی', date: '1403/02/28', srcImage: '/image/weblog/weblog-item-4.jpg'},
+    {id: 3, title: 'دسته های جدید ایکس باکس', content: 'ایکس باکس برای بازی کال اف دیوتی وارزون دسته های مخصوص آن بازی را ایجاد و در بسته های جدید خود به علاوه بر دسته های مخصوص کاور XBOX کاستوم اضافه شد', writer: 'سجاد انجیدنی', date: '1403/02/30', srcImage: '/image/weblog/weblog-item-2.jpg'},
+    {id: 4, title: 'بهترین بازی های امسال ', content: 'بهترین بازی های امسال و لیست سیستم های که آنها را اجرا میکنند منتشر شد', writer: 'سجاد انجیدنی', date: '1403/02/31', srcImage: '/image/weblog/weblog-item-3.jpg'},
+  ]
+
   return (
-    <div className="container">
+    <div className="container overflow-x-hidden">
       <Navbar></Navbar>
       <SliderContainer>
         <ImageSlider></ImageSlider>
@@ -156,10 +163,10 @@ function App() {
       </ServicesWe>
       {/* weblog */}
       <WeblogContainer>
-        <WeblogItem></WeblogItem>
-        <WeblogItem></WeblogItem>
-        <WeblogItem></WeblogItem>
-        <WeblogItem></WeblogItem>
+        <WeblogItem {...WeblogItemInfo[0]}></WeblogItem>
+        <WeblogItem {...WeblogItemInfo[1]}></WeblogItem>
+        <WeblogItem {...WeblogItemInfo[2]}></WeblogItem>
+        <WeblogItem {...WeblogItemInfo[3]}></WeblogItem>
       </WeblogContainer>
     </div>
   );
