@@ -1,6 +1,6 @@
 const ServicesItem = ({children, title , content , iconColor , iconBgColor}) => {
     return(
-        <div className="flex items-center px-5 w-full h-full rounded-lg bg-white">
+        <div className="flex items-center px-5 w-full h-full rounded-lg bg-white dark:bg-black">
             {/* icon container */}
             <div id="iconContainer" className="w-14 h-5/6 rounded-full" style={{ backgroundColor: iconBgColor }}>
                 <div className="flex relative child:absolute child:top-7 child:-left-5" style={{ fill: iconColor }}>{children}</div>

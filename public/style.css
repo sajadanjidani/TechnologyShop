@@ -883,6 +883,10 @@ video {
   fill: #fc9c00;
 }
 
+.fill-white {
+  fill: #fff;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1051,6 +1055,10 @@ video {
 
   .dark\:fill-darkPrice {
     fill: #04ff00;
+  }
+
+  .dark\:fill-black {
+    fill: #000;
   }
 
   .dark\:text-textDark {
