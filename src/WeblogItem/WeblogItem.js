@@ -19,7 +19,7 @@ const WeblogItem = ({title, content, writer, date, srcImage}) => {
                     </div>
                 </div>
             </div>
-            <button className="w-full h-12 border-t hover:text-hoverLight">مطالعه مقاله</button>
+            <button className="w-full h-12 border-t hover:text-hoverDark dark:hover:text-hoverLight">مطالعه مقاله</button>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.js'],
   theme: {
     extend: {
@@ -17,7 +18,7 @@ module.exports = {
         darkPrice : "#04ff00",
         lightPrice : "#008f00",
         hoverLight : "#dd3af8",
-        hoverDark : "#58b1f7",
+        hoverDark : "#35a0f2",
         rateLight : "#fc9c00",
         rateDark : "#ffe605",
       }
