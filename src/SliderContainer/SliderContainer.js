@@ -1,6 +1,6 @@
 const SliderContainer = ({children}) => {
     return(
-        <div className="w-10/12 h-[440px] mt-16 mx-auto">
+        <div className="w-[96%] h-72 mt-5 sm:h-[460px] mx-auto">
             {children}
         </div>
     )

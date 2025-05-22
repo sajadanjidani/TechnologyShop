@@ -17,6 +17,7 @@ const ImageSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
   };
 
   return (
@@ -29,7 +30,7 @@ const ImageSlider = () => {
           <img
             src={src}
             alt={`slide-${index}`}
-            className="w-full h-[420px] transition-all duration-500"
+            className="w-full h-64 sm:h-[440px] transition-all duration-500"
           />
         </div>
       ))}
