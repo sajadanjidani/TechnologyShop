@@ -21,6 +21,9 @@ module.exports = {
         hoverDark : "#35a0f2",
         rateLight : "#fc9c00",
         rateDark : "#ffe605",
+      },
+      screens : {
+        xm : '580px'
       }
     },
   },
