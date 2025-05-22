@@ -23,7 +23,8 @@ module.exports = {
         rateDark : "#ffe605",
       },
       screens : {
-        xm : '580px'
+        xm : '580px',
+        xs : '450px'
       }
     },
   },
