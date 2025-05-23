@@ -3,10 +3,10 @@ import Slider from "react-slick";
 
 const ImageSlider = () => {
   const images = [
-    "/image/sliderImage/laptopPhoto.avif",
-    "/image/sliderImage/consoleShop.jpg",
-    "/image/sliderImage/pcShop.jpg",
-    "/image/sliderImage/premiumPhone.avif",
+    "./image/sliderImage/laptopPhoto.avif",
+    "./image/sliderImage/consoleShop.jpg",
+    "./image/sliderImage/pcShop.jpg",
+    "./image/sliderImage/premiumPhone.avif",
   ];
 
   const settings = {
