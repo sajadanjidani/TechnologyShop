@@ -67,3 +67,9 @@ Please follow the code of conduct and ensure that your contributions align with 
 This project is licensed under the **MIT License** or **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. Feel free to use, modify, and distribute the code, as long as you give appropriate credit to the original author.
 
 See the [LICENSE](LICENSE) file for more details.
+
+## 🚀 Live Demo
+
+[![View Demo](./screenshots/demo.png)](https://sajadanjidani.github.io/TechnologyShop/)
+
+🔗 [Go to Demo](https://sajadanjidani.github.io/TechnologyShop/)
