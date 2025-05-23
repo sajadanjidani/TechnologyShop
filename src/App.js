@@ -145,7 +145,7 @@ function App() {
         <StoreItems {...consoleItems[11]}></StoreItems>
         <StoreItems {...phoneItems[9]}></StoreItems>
         <StoreItems {...consoleItems[8]}></StoreItems>
-        <StoreItems></StoreItems>
+        <StoreItems {...consoleItems[3]}></StoreItems>
       </StoreSlider>
       {/* Services container */}
       <ServicesWe>

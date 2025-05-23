@@ -803,6 +803,10 @@ video {
   cursor: pointer;
 }
 
+.cursor-grab {
+  cursor: grab;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -1047,6 +1051,10 @@ video {
 .hover\:text-hoverDark:hover {
   --tw-text-opacity: 1;
   color: rgb(53 160 242 / var(--tw-text-opacity, 1));
+}
+
+.active\:cursor-grabbing:active {
+  cursor: grabbing;
 }
 
 .child\:absolute > * {
