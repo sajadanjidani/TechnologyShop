@@ -37,8 +37,8 @@ const Footer = () => {
                     <h2 className="text-xl mt-3">درباره ما</h2>
                     <p className="mt-2 leading-8 text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
                 </div>
-                <div className="flex min-w-64 min-h-56 mt-5 md:mt-0">
-                    <img className="w-full h-full md:-mt-10" alt="enamad" src="./image/enamad.png"/>
+                <div className="flex justify-end min-w-64 lg:min-h-56 mt-5 md:mt-0">
+                    <img className="w-32 sm:w-full h-32 sm:h-full md:-mt-10" alt="enamad" src="./image/enamad.png"/>
                 </div>
             </div>
             {/* icon container */}
