@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* imagebox */}
                 <div className="flex items-start justify-center w-3/5 h-full mx-auto md:mx-0">
                     {/* image */}
-                    <img className="max-w-40 min-w-40 max-h-36 min-h-36" alt="logo" src="/image/navbar/logo.png"/>
+                    <img className="max-w-40 min-w-40 max-h-36 min-h-36" alt="logo" src="./image/navbar/logo.png"/>
                 </div>
                 <div className="flex items-center justify-around xs:justify-between w-full h-full px-4 py-5">    
                     <div className="flex gap-2 items-center justify-center child-hover:cursor-pointer child-hover:text-hoverDark child-hover:fill-hoverDark dark:child-hover:text-hoverLight dark:child-hover:fill-hoverLight">
@@ -38,7 +38,7 @@ const Footer = () => {
                     <p className="mt-2 leading-8 text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
                 </div>
                 <div className="flex min-w-64 min-h-56 mt-5 md:mt-0">
-                    <img className="w-full h-full md:-mt-10" alt="enamad" src="/image/enamad.png"/>
+                    <img className="w-full h-full md:-mt-10" alt="enamad" src="./image/enamad.png"/>
                 </div>
             </div>
             {/* icon container */}

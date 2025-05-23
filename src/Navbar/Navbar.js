@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="flex h-20">
                     {/* imagebox */}
                     <div className="-mt-5 -mr-3">
-                        <img className="-mt-1.5 max-w-36 max-h-36 " src="/image/navbar/logo.png" alt="logo"></img>
+                        <img className="-mt-1.5 max-w-36 max-h-36 " src="./image/navbar/logo.png" alt="logo"></img>
                     </div>
                     <div className="grid grid-cols-2 grid-rows-2 max-w-24 gap-7 pt-2 xm:flex xm:min-w-64 xm:gap-5 xm:pt-5 xm:items-start w-full h-full">
                         <CircleBtn onClick={closeMenu}>
@@ -100,7 +100,7 @@ const Navbar = () => {
                     </div>
                     {/* imagebox */}
                     <div className="w-20 h-full">
-                        <img className="w-32 h-full" src="/image/navbar/logo.png" alt="logo" />
+                        <img className="w-32 h-full" src="./image/navbar/logo.png" alt="logo" />
                     </div>
                     {/* list navbar */}
                     <ul className="hidden md:flex justify-center items-center gap-5 h-full child-hover:text-hoverDark dark:text-textDark dark:child-hover:text-hoverLight">
